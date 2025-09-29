@@ -1,9 +1,9 @@
-Dataset sintético - Deserción estudiantil
+# Dataset sintético - Deserción estudiantil
 
 Este dataset fue creado para el taller de Aprendizaje Supervisado vs No Supervisado.  
 Contiene 500 registros simulados de estudiantes y busca predecir si un estudiante deserta (Sí/No).
 
- Variables incluidas
+ # Variables incluidas
 
 - **Edad**: Entero, entre 16 y 30 (con algunos valores atípicos mayores de 40).  
 - **Género**: Categórico (M/F).  
@@ -16,12 +16,12 @@ Contiene 500 registros simulados de estudiantes y busca predecir si un estudiant
 - **Credito**: Categórico (Sí/No).  
 - **Desercion**: Variable de salida (Sí/No).  
 
-##Detalles especiales
+# Detalles especiales
 - Se introdujeron **nulos** en algunas variables académicas.  
 - Se agregaron **valores atípicos**: promedios negativos (-1) y edades > 40.  
 - Distribución: aproximadamente 30% de estudiantes desertan.  
 
-#Uso
+# Uso
 Este dataset puede usarse para entrenar y evaluar modelos de Machine Learning, especialmente **clasificación supervisada** (regresión logística, árboles de decisión, etc.).
 
 ---
