@@ -4,7 +4,7 @@ Este dataset fue creado para el taller de Aprendizaje Supervisado vs No Supervis
 Contiene 500 registros simulados de estudiantes y busca predecir si un estudiante deserta (Sí/No).
 
  # Variables incluidas
-
+ 
 - **Edad**: Entero, entre 16 y 30 (con algunos valores atípicos mayores de 40).  
 - **Género**: Categórico (M/F).  
 - **Ciudad_Origen**: Categórico (Urbano/Rural).  
@@ -14,8 +14,8 @@ Contiene 500 registros simulados de estudiantes y busca predecir si un estudiant
 - **Nivel_Socioeconomico**: Entero, 1–6.  
 - **Beca**: Categórico (Sí/No).  
 - **Credito**: Categórico (Sí/No).  
-- **Desercion**: Variable de salida (Sí/No).  
-
+- **Desercion**: Variable de salida (Sí/No).
+  
 # Detalles especiales
 - Se introdujeron **nulos** en algunas variables académicas.  
 - Se agregaron **valores atípicos**: promedios negativos (-1) y edades > 40.  
